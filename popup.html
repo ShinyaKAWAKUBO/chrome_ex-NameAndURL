@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ページ情報コピー</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 160px; /* 適切な幅に設定 */
+            height: 45px; /* 適切な高さに設定 */
+            overflow: hidden;
+        }
+        #scrollable-container {
+            height: 100%;
+            overflow-y: auto; /* 垂直方向にスクロールバーを表示 */
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="scrollable-container">
+        <button id="copyInfoBtn">ページ情報をコピー</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
